@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace CSharp_tutorial.Chapters._2
 {
-    class Codes
+    class Codes : CodesClass
     {
-        public void RunCode(int arg)
+        public Codes(int arg) : base(arg)
         {
-            Console.WriteLine("chapter 2 page : " + arg);
+        }
+
+        public override void RunCode(int arg)
+        {
+            Console.WriteLine("인자값을 활용한 실행코드 출력은 따로 알아두도록 한다.");
+        }
+
+        public override void WriteText(int arg)
+        {
+            throw new NotImplementedException();
         }
     }
 }
