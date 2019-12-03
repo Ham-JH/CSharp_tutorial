@@ -14,7 +14,5 @@ namespace CSharp_tutorial.Chapters
         }
 
         public abstract void RunCode(int arg);
-
-        public abstract void WriteText(int arg);
     }
 }

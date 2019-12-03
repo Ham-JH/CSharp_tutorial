@@ -17,9 +17,5 @@ namespace CSharp_tutorial.Chapters._2
             Console.WriteLine("인자값을 활용한 실행코드 출력은 따로 알아두도록 한다.");
         }
 
-        public override void WriteText(int arg)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
