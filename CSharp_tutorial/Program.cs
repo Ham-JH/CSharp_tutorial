@@ -29,7 +29,7 @@ namespace CSharp_tutorial
             }
             else if(arg <= 115) // chapter A : 문자열 다루기
             {
-                
+                new Chapters.A.Codes(arg);
             }
             else if(arg <= 145) // chapter 4 : 데이터를 가공하는 연산자
             {
