@@ -37,7 +37,7 @@ namespace CSharp_tutorial
             }
             else if(arg <= 181) // chapter 5 : 코드의 흐름 제어하기
             {
-
+                new Chapters._5.Codes(arg);
             }
             else if(arg <= 217) // chapter 6 : 메소드로 코드 간추리기
             {
