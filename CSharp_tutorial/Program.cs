@@ -33,7 +33,7 @@ namespace CSharp_tutorial
             }
             else if(arg <= 145) // chapter 4 : 데이터를 가공하는 연산자
             {
-                
+                new Chapters._4.Codes(arg);
             }
             else if(arg <= 181) // chapter 5 : 코드의 흐름 제어하기
             {
